@@ -1,3 +1,5 @@
+// tutorial: https://www.youtube.com/watch?v=MaSynwSIty4&list=PL4HikwTaYE0EG379sViZZ6QsFMjJ5Lfwj&index=1
+
 import { config } from "dotenv";
 import {
   CommaSeparatedListOutputParser,
@@ -30,7 +32,7 @@ const model = new ChatOpenAI({
 //   console.log(chunk);
 // }
 
-//*------------------------------ formatting the output using output parsers ------------------------------*//
+//*------------------------------ formatting the output with output parsers ------------------------------*//
 
 async function callStringOutputParser() {
   // make prompt template
